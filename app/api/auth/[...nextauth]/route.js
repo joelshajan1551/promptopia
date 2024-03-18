@@ -14,8 +14,8 @@ const handler = NextAuth({
     try {
       await connectToDB();
 
-      return true;
-    } catch (error) {
+      return true; 
+    } catch (error)  {  
       console.log(error);
       return false;
     }
